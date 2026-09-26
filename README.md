@@ -15,7 +15,7 @@ It does not retrieve or extract keys, inspect or inject into a running WeChat pr
 
 ## Requirements
 
-- Windows x64 and Python 3.12 x64 are the tested target; other platforms and client versions are not claimed as supported.
+- Windows x64 and Python 3.12 x64 are the intended target. In this workspace only syntax and value-encoding checks ran under Python 3.13; a full export against a sample database has not been verified. Other platforms and client versions are not claimed as supported.
 - A valid database key for the selected local account, supplied by the user in a private local key file.
 - A compatible `WeChatDataAnalysis` source checkout containing `src/wechat_decrypt_tool/wechat_decrypt.py`. This repository does not redistribute that project's code; obtain it from its upstream source and review its license and provenance.
 - Python dependency: `zstandard` (optional for decoding compressed message text; undecodable values remain base64).
