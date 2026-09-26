@@ -1,0 +1,7 @@
+*.local.json
+*key*.json
+*secret*
+*.jsonl
+exports/
+__pycache__/
+.venv/

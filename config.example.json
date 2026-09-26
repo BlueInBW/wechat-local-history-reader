@@ -1,0 +1,7 @@
+{
+  "account": "your-own-wxid",
+  "account_alias": "your-own-WeChat-alias",
+  "source_directory": "C:/path/to/your/wechat/account/db_storage",
+  "key_file": "C:/private/path/to/your/key-store.json",
+  "decrypt_source": "C:/path/to/WeChatDataAnalysis/src"
+}
