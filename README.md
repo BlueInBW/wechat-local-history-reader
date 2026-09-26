@@ -48,6 +48,10 @@ Each JSONL line contains the source message database name, hashed conversation t
 
 The tool reads all rows currently present in the selected `Msg_*` tables; it does not promise deleted-message recovery, media download, complete semantic decoding, or exact rendering as seen in the client. A database changing during snapshot capture may make an export fail safely; retry after the client has settled. Always validate the result against messages visible in your own client.
 
+## How the broader chat assistant works
+
+The companion document [SYSTEM_OVERVIEW.md](SYSTEM_OVERVIEW.md) explains, in plain language, how message receiving, replies, forwarding, and sending fit together, and what problems came up during integration. Those features are described at a high level only; they are not included in this read-only exporter.
+
 ## Search terms
 
 WeChat local chat history export, WeChat for Windows database reader, SQLite WAL snapshot, JSONL export, local archive, read-only message history, WCDB/SQLCipher-compatible database research.
